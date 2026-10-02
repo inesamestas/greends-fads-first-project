@@ -1,0 +1,12 @@
+QST 5.1 : can you explain the copy (cp ../temp-* .)
+
+cp is the command used to copy a file or a folder then the * allows us to copy all the files that starts with temp-. Because they are located in an another folder we have to write ../ , that means we go to the 
+folder where they are and then copy them: Finally the . explain to the computer that we want to copy it in the current folder,
+
+QST 5.2 : Can you explain why, in this case, we did not have to do git init?
+
+git init is used to initialize our terminal and connect it to our account. Once it is done we do not have to do it again.
+
+QST 5.3 : Can you commit the files copied? What do you need to do? Execute the commands that are needed.
+
+To commit the files we have to add them again [git add .] and then commit them [git commit * -m "init commit and modification of the file temp-doc.txt" ]
